@@ -1,0 +1,39 @@
+.container {
+    width: 70%;
+    display: flex;
+    gap: 25px;
+}
+
+.foot {
+    width: 24%;
+
+    p,
+    i {
+        opacity: 0.5;
+    }
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.cart{
+    padding: 15px 40px;
+    border: 2px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
+.foot1{
+    width: 24%;
+}
+.imgbox{
+    width: 100%;
+    img{
+        width:200px;
+    }
+}

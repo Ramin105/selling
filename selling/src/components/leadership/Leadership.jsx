@@ -35,7 +35,12 @@ const Leadership = () => {
               <h3 className={styles.cardName}>{member.name}</h3>
               <p className={styles.cardPosition}>{member.position}</p>
               <p className={styles.cardBio}>{member.bio}</p>
+
             </div>
+            <div className={styles.icons}><i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i></div>
           </div>
         ))}
       </div>

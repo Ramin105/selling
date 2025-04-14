@@ -10,6 +10,7 @@ import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
 import BlogPost from "./components/blog/Blog";
 import ContactForm from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -25,14 +26,43 @@ const App = () => {
       >
         <Header />
         <ImgContainer />
-        <Products/>
-       
-      </div> <Subscribe/>
-      <div><Featured/><Leadership/><Promo/></div>
-      <div style={{marginTop:'250px',display:"flex",flexDirection:'column',alignItems:'center',gap:'10px'}}> <p>Our Services</p> <h1>We Offer Services</h1><Services/></div>
-      <Testimonials/>
-      <div style={{display:"flex",width:'100%',justifyContent:'center', flexDirection:'column',alignItems:"center", gap:'25px'}}> <h1>Blog posts</h1> <BlogPost/></div>
-      <ContactForm/>
+        <Products />
+      </div>{" "}
+      <Subscribe />
+      <div>
+        <Featured />
+        <Leadership />
+        <Promo />
+      </div>
+      <div
+        style={{
+          marginTop: "250px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "10px",
+        }}
+      >
+        {" "}
+        <p>Our Services</p> <h1>We Offer Services</h1>
+        <Services />
+      </div>
+      <Testimonials />
+      <div
+        style={{
+          display: "flex",
+          width: "100%",
+          justifyContent: "center",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "25px",
+        }}
+      >
+        {" "}
+        <h1>Blog posts</h1> <BlogPost />
+      </div>
+      <div style={{marginTop:'35px',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}><h1>Get In Touch</h1><ContactForm /><Footer/></div>
+      
     </div>
   );
 };

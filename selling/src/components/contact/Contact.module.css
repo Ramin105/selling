@@ -46,7 +46,7 @@
     border-radius: 4px;
     font-size: 16px;
     min-height: 150px;
-    resize: vertical;
+    resize: none;
   }
   
   .inputField:focus,
@@ -88,16 +88,18 @@
   }
   
   .submitButton {
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 13px;
     transition: background-color 0.3s;
   }
-  
+  textarea{
+    resize: none;
+  }
   .submitButton:hover {
     background-color: #45a049;
   }

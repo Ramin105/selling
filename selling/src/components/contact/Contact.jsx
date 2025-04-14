@@ -131,6 +131,7 @@ const ContactForm = () => {
           <label className={styles.label}>Message</label>
           <textarea
             name="message"
+            placeholder='Write your notes or questions here'
             value={formData.message}
             onChange={handleChange}
             className={styles.textareaField}
@@ -138,7 +139,7 @@ const ContactForm = () => {
           />
         </div>
         
-        <p className={styles.placeholderText}>Write your notes or questions here...</p>
+
         
         <div className={styles.formGroup}>
           <button 
@@ -150,7 +151,6 @@ const ContactForm = () => {
           </button>
         </div>
         
-        <div className={styles.shopMessage}>SHOP MESSAGE</div>
       </form>
     </div>
   );
