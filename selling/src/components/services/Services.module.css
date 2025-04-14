@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    width: 33.3%;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.rightcard p{
+    font-size: 20px;
+    width: 80%;opacity: 0.6;
+}
+.rightcard h3{
+   opacity: 0.6;
+}
+.rightcard{display: flex;
+flex-direction: column;
+gap: 10px;}
+
+.leftcard{
+    font-size: 45px;
+    color: orange;
+}

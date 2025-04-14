@@ -1,0 +1,85 @@
+.promoContainer {
+    position: relative;
+    padding: 4rem 2rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Background with brightness filter */
+  .backgroundImage {
+    position: absolute;
+    height: 90vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://preview.colorlib.com/theme/selling/images/hero_2.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6);
+    z-index: -1;
+  }
+  
+  /* Content stays unaffected */
+  .promoContent {
+    position: relative;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .timerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .timerUnit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .timerValue {
+    font-size: 2rem;
+    font-weight: bold;
+    color: aqua;
+    margin-bottom: 8px;
+  }
+  
+  .timerLabel {
+    font-size: 0.8rem;
+    color: black;
+    opacity: 0.6;
+  }
+  
+  .shopNowButton {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid white;
+    padding:20px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
